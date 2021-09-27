@@ -1,0 +1,13 @@
+.text-center{
+    background-color: aqua;
+    padding: 15px;
+    border-radius: 10px;
+    border: solid 2px black;
+    
+}
+h1{
+    margin: 10px;
+}
+.input{
+    color: red;
+}
