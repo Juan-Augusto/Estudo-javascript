@@ -1,0 +1,33 @@
+/*====Variables=============*/
+:root{
+    --header-height: 4.5rem;
+
+    /* colors */
+    --hue: 59;
+    /* HSL color mode */
+    --base-color: hsl(var(--hue) 65% 45%);
+    --base-color-second: hsl(var(--hue) 85% 88%);
+    --base-color-alt: hsl(var(--hue) 57% 53%);
+    --title-color: hsl(var(--hue) 41% 10%);
+    --text-color: hsl(0 0% 46%);
+    --text-color-light: hsl(0 0% 98%);
+    --body-color: hsl(0 0% 98%);
+
+    /*fonts*/
+    --title-font-size: 1.875rem;
+    --subtitle-font-size: 1rem;
+
+}
+.text-center{
+    background-color: var(--base-color);
+    padding: 15px;
+    border-radius: 10px;
+    border: solid 2px var(--text-color);
+    
+}
+h1{
+    margin: 10px;
+}
+.input{
+    color: var(--text-color-light);
+}
