@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="calculoadd.js"></script>
+    <title>Projeto exercicio 7</title>
+</head>
+<body>
+    <div class="container">
+        <div class="col-12 text-center">
+            <h1>Confira o reajuste do salário baseado na quantidade de dependentes:</h1>
+            <hr>
+            <div class="container">
+                <h1 class="input">Digite o nome do colaborador:</h1>
+                <input type="text" placeholder="Nome do colaborador" id="idcolaborador">
+                <h1 class="input">Digite o valor do salário:</h1>
+                <input type="number" placeholder="Valor do salário" id="valorsalario">
+                <h1 class="input">Informe o número de dependentes:</h1>
+                <input type="number" placeholder="Número de dependentes" id="numerodependentes">
+                <input type="button" onclick="calcSal()" value="Calcular novo salário">
+            </div>
+            <div class="container" novoSalario>
+        
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>
