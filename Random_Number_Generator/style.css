@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Source+Code+Pro:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 300px;
+    border: 1px solid #000;
+    padding: 25px;
+    background-color: aliceblue;
+    font-family: 'Source Code Pro', monospace;
+}
+.numberGenerator{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 10px;
+}
+input{
+    outline: none;
+    padding: 5px;
+}
+button{
+    margin: 10px;
+    padding: 5px;
+}
+strong{
+    text-decoration: underline;
+
+}
